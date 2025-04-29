@@ -1,0 +1,36 @@
+.works__title {
+    margin-bottom: 50px;
+    color: $title-color;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+}
+
+.works__list {
+    display: flex;
+    position: relative;
+    gap: 30px;
+}
+
+.works__image {
+    display: block;
+    z-index: 1;
+}
+
+.works__overlay {
+    position: absolute;
+    bottom: 0;
+
+    @extend %flex-center;
+    
+    width: 370px;
+    height: 70px;
+    background-color: rgba(47, 48, 58, 0.8);
+}
+
+.works__label {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $primary-color
+}

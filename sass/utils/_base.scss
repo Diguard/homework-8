@@ -1,0 +1,42 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $primary-color;
+  color: $text-color;
+  font-family: $font-main;
+  line-height: 1.2;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section--no-padding {
+  padding: 0;
+}
+
+.section--no-padding-bottom {
+  padding-bottom: 0;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}

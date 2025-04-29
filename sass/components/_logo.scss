@@ -1,0 +1,18 @@
+.logo {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    color:#000000;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
+
+    &--highlighted {
+        color: $accent-color;
+    }
+}
+
+.footer__logo--highlighted {
+    color: $primary-color;
+}
+
