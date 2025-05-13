@@ -13,6 +13,24 @@
     margin: 0 auto;
 }
 
+@media screen and (max-width: 480px) {
+
+    .header__container{
+        display: flex;
+        
+        width: 480px;
+        padding: 0 15px;
+    }
+    
+    .nav__item {
+        display: none;
+    } 
+
+    .contacts__item {
+        display: none;
+    }
+}
+
 .nav {
     @extend %flex-center;
     gap: 93px;
