@@ -11,6 +11,25 @@
     margin-bottom: 50px;
 }
 
+.socials__item {
+    @include flex-center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: $accent-color;
+        border-radius: 50%;
+        cursor: pointer;
+        
+        .socials__icon {
+            fill: $primary-color;
+        }
+    }
+}
+
 .socials__icon {
     display: flex;
     width: 20px;
@@ -67,7 +86,10 @@
         padding-top: 16px;
         padding-bottom: 24px;
         margin: 0;
+        gap: 10px;
     }
+
+    
 }
 
 // .team__list {
