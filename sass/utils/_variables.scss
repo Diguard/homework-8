@@ -3,21 +3,27 @@ $accent-color: #2196F3;
 $title-color: #212121;
 $text-color: #757575;
 
-$mobile: 480px;
-
 $font-main: 'Roboto', sans-serif;
 
 %flex-center {
   display: flex;
   justify-content: center;
   align-items: center;
-  }
+}
 
 %flex-column {
   display: flex;
   flex-direction: column;
   align-items: center;
-  }
+}
+
+%icon-contain-center {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+// Mixin
 
 @mixin flex-center {
   display: flex;
@@ -30,9 +36,3 @@ $font-main: 'Roboto', sans-serif;
   flex-direction: column;
   align-items: center;
 }
-
-%icon-contain-center {
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  }
