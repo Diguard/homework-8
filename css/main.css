@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 .footer__btn-subscribe, .footer__form-box, .portfolio__overlay, .filter__list, .company__item, .company__list, .socials__item, .socials__list, .works__overlay, .advantages__image, .form__close-button, .form__button, .form__checkbox-icon, .nav {
+=======
+.footer__btn-subscribe, .footer__form-box, .socials__item, .portfolio__overlay, .filter__list, .company__item, .company__list, .works__overlay, .form__close-button, .form__button, .form__checkbox-icon, .nav {
+>>>>>>> parent of 1d9febb (adaptive  section company)
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
