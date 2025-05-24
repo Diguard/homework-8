@@ -20,7 +20,7 @@
     @extend %flex-column;
 
     overflow: hidden;
-    width: 270px;
+    min-width: 270px;
     text-align: center;
 
     box-shadow: 0px 4px 6px -2px rgba(0, 0, 0, 0.5);
@@ -30,8 +30,6 @@
 }
 
 .team__label {
-    @extend %flex-column;
-    padding: 16px 0;
     gap: 10px;  
 }
 
@@ -43,6 +41,25 @@
 
 .card__text {
     font-size: 16px;
+}
+
+.socials__item {
+    @extend %flex-center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: $accent-color;
+        border-radius: 50%;
+        cursor: pointer;
+        
+        .socials__icon {
+            fill: $primary-color;
+        }
+    } 
 }
 
 .socials__icon {
@@ -93,22 +110,5 @@
     }
 }
 
-.socials__item {
-    @extend %flex-center;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    &:hover,
-    &:focus {
-        background-color: $accent-color;
-        border-radius: 50%;
-        cursor: pointer;
-        
-        .socials__icon {
-            fill: $primary-color;
-        }
-    } 
-}
 
