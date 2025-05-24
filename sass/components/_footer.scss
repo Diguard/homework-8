@@ -2,120 +2,120 @@
     background-color:#2F303A;
 }
 
-.footer__container {
-    width: 1200px;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    padding: 60px 0;
-    margin: 0 auto;
-}
+// .footer__container {
+//     width: 1200px;
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: baseline;
+//     padding: 60px 0;
+//     margin: 0 auto;
+// }
 
-.footer__contacts {
-    display: flex;
-    flex-direction: column;
-    row-gap: 9px;
-}
+// .footer__contacts {
+//     display: flex;
+//     flex-direction: column;
+//     row-gap: 9px;
+// }
 
-.footer__address {
-    display: block;
-    color: $primary-color;
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.7;
-}
+// .footer__address {
+//     display: block;
+//     color: $primary-color;
+//     font-style: normal;
+//     font-size: 14px;
+//     line-height: 1.7;
+// }
 
-.footer__contacts-list {
-    display: flex;
-    flex-direction: column;
-    row-gap: 9px;
-}
+// .footer__contacts-list {
+//     display: flex;
+//     flex-direction: column;
+//     row-gap: 9px;
+// }
 
-.footer__socials-title {
-    color: $primary-color;
-    font-weight: 700;
-    font-size: 14px;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    letter-spacing: 0.03em;
-}
+// .footer__socials-title {
+//     color: $primary-color;
+//     font-weight: 700;
+//     font-size: 14px;
+//     text-transform: uppercase;
+//     margin-bottom: 20px;
+//     letter-spacing: 0.03em;
+// }
 
-.footer__socials-list {
-    display: flex;
-    justify-content:flex-start;
-    align-items: center;
-    min-width: 206px;
-    gap: 10px;
-}
+// .footer__socials-list {
+//     display: flex;
+//     justify-content:flex-start;
+//     align-items: center;
+//     min-width: 206px;
+//     gap: 10px;
+// }
 
-.socials__item {
-    @extend %flex-center;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.1);
-}
+// .socials__item {
+//     @extend %flex-center;
+//     width: 44px;
+//     height: 44px;
+//     border-radius: 50%;
+//     background-color: rgba(255, 255, 255, 0.1);
+// }
 
-// Form
+// // Form
 
-.footer__form  {
-    width: 570px;
-    height: 76px;
-}
+// .footer__form  {
+//     width: 570px;
+//     height: 76px;
+// }
 
-.footer__form-title {
-    color: $primary-color;
-    font-weight: 700;
-    font-size: 14px;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    letter-spacing: 0.03em;
-}
+// .footer__form-title {
+//     color: $primary-color;
+//     font-weight: 700;
+//     font-size: 14px;
+//     text-transform: uppercase;
+//     margin-bottom: 20px;
+//     letter-spacing: 0.03em;
+// }
 
-.footer__form-box {
-  @extend %flex-center;
-}
+// .footer__form-box {
+//   @extend %flex-center;
+// }
 
-.footer__form-input {
-    width: 358px;
-    height: 50px;
-    padding: 16px 15px;
-    margin: 0;
-    border-radius: 4px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    background-color: #2F303A ; 
+// .footer__form-input {
+//     width: 358px;
+//     height: 50px;
+//     padding: 16px 15px;
+//     margin: 0;
+//     border-radius: 4px;
+//     border: 1px solid rgba(255, 255, 255, 0.3);
+//     background-color: #2F303A ; 
 
-    color: rgba(255, 255, 255, 0.6);
+//     color: rgba(255, 255, 255, 0.6);
 
-    &::placeholder {
-        color: rgba(255, 255, 255, 0.6);
-        font-family: Roboto, sans-serif;
-        font-size: 16px;
-        line-height: 1.2;
-        letter-spacing: 0.03em;
-    }
-}
+//     &::placeholder {
+//         color: rgba(255, 255, 255, 0.6);
+//         font-family: Roboto, sans-serif;
+//         font-size: 16px;
+//         line-height: 1.2;
+//         letter-spacing: 0.03em;
+//     }
+// }
 
-.footer__btn-subscribe {
-    @extend %flex-center;
-    border-radius: 4px ;
-    border: none;
-    padding: 0;
-    margin-left: 12px;
-    min-width: 200px;
-    height: 50px;
-    background-color: $accent-color;
-    color: $primary-color;
+// .footer__btn-subscribe {
+//     @extend %flex-center;
+//     border-radius: 4px ;
+//     border: none;
+//     padding: 0;
+//     margin-left: 12px;
+//     min-width: 200px;
+//     height: 50px;
+//     background-color: $accent-color;
+//     color: $primary-color;
 
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.8;
-    letter-spacing: 0.06em;
-    cursor: pointer;
-}
+//     font-weight: 700;
+//     font-size: 16px;
+//     line-height: 1.8;
+//     letter-spacing: 0.06em;
+//     cursor: pointer;
+// }
 
-.footer__icon-subscribe {
-    width: 24px;
-    height: 24px;
-    margin-left: 10px;
-}
+// .footer__icon-subscribe {
+//     width: 24px;
+//     height: 24px;
+//     margin-left: 10px;
+// }
