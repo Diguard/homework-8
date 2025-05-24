@@ -34,3 +34,9 @@
     text-transform: uppercase;
     color: $primary-color
 }
+
+@media screen and (max-width: $mobile) {
+    .works {
+        display: none;
+    }
+}

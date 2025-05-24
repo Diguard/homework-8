@@ -111,3 +111,21 @@
     background-color: $accent-color;
     border-radius: 2px;
 }
+
+@media screen and (max-width: $mobile) {
+
+    .header__container{
+        display: flex;
+        
+        width: $mobile;
+        padding: 0 15px;
+    }
+    
+    .nav__item {
+        display: none;
+    } 
+
+    .contacts__item {
+        display: none;
+    }
+}
