@@ -16,9 +16,20 @@
     <header class="header">
         <div class="header__container">
                 
-            <nav class="nav">
+            <a href="" class="logo"><span class="logo--highlighted">Web</span>Studio</a>
 
-                <a href="" class="logo"><span class="logo--highlighted">Web</span>Studio</a>
+            <button type="button" class="menu-button is-open" aria-expanded="false" aria-controls="menu-container" data-menu-button>
+                <svg width="40" height="40" aria-label="Перемикач мобільного меню">
+                    <use class="icon-menu" href="./images/main/icon-mobile-menu.svg#menu"></use>
+                    <use class="icon-cross" href="./images/main/icon-mobile-menu.svg#cross"></use>
+                </svg>
+            </button>
+
+            <div class="menu-container" id="menu-container" data-menu>
+                Mobile menu
+            </div>
+
+            <nav class="nav">
 
                 <ul class="nav__list">
                     <li class="nav__item">
@@ -461,9 +472,7 @@
     </main>
     <!--Footer-->
     <footer class="footer">
-
        <div class="footer__container footer--padding">
-
         <div class="footer__contacts">
             <a href="" class="logo"><span class="logo--highlighted">Web</span><span class="footer__logo--highlighted">Studio</span></a>
   
@@ -531,6 +540,8 @@
     </footer>
     
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
+
 
 </body>
 </html>

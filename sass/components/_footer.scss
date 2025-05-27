@@ -36,6 +36,26 @@
     letter-spacing: 0.03em;
 }
 
+.contacts__link {
+    display: flex;
+    align-items: center;
+    
+    gap: 10px;
+
+    color: inherit;
+    font-weight: 500;
+    font-size: 14px;
+    list-style: none;
+    text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+
+    &:hover,
+    &:focus {
+        color: $accent-color;
+    }
+}
+
 .footer__form-input {
     width: 358px;
     height: 50px;
@@ -107,7 +127,6 @@
 
     .footer__socials-list {
         @include flex-center;
-
     }
 
     .footer__form-title {
