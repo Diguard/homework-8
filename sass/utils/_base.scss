@@ -2,7 +2,7 @@
 * {
   box-sizing: border-box;
 
-  // outline: solid 1px red;
+  // outline: solid 1px tomato;
 }
 
 body {
@@ -49,5 +49,9 @@ h1, h2, h3, p {
 
   @media screen and (max-width: $mobile) {
     width: $mobile;
+  }
+
+  @media screen and (min-width: $tablet) {
+    width: $tablet;
   }
 }
