@@ -42,7 +42,6 @@ h1, h2, h3, p {
 }
 
 .container {
-  // width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -53,5 +52,9 @@ h1, h2, h3, p {
 
   @media screen and (min-width: $tablet) {
     width: $tablet;
+  }
+
+  @media screen and (min-width: $desktop) {
+    width: $desktop;
   }
 }
