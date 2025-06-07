@@ -12,6 +12,11 @@
     border-radius: 4px;
     background-color: $primary-color;
     box-shadow: 4px 4px 6px -2px rgba(0, 0, 0, 0.7);
+
+    @media screen and (min-width: $desktop) {
+        min-width: 528px;
+        min-height: 581px;
+    }
 }
 
 
@@ -87,7 +92,12 @@
     }
     &:focus + .form__icon {
         fill: $accent-color;
-      }
+    }
+
+    @media screen and (min-width: $desktop) {
+        width: 448px;
+    }
+
 }
 
 .form__textarea {
@@ -108,6 +118,10 @@
         color: rgba(117, 117, 117, 0.5);
         letter-spacing: 0.01em;
     }  
+
+    @media screen and (min-width: $desktop) {
+        width: 448px;
+    }
 }
 
 .form__icon {
@@ -142,6 +156,10 @@
     cursor: pointer;
     line-height: 1.2;
     gap: 7px;
+
+    @media screen and (min-width: $desktop) {
+        font-size: 14px;
+    }   
   }
 
 .form__checkbox-icon {
