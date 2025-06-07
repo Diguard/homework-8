@@ -27,6 +27,12 @@ h1, h2, h3, p {
   padding: 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -390,6 +396,108 @@ h1, h2, h3, p {
 
 .footer__logo--highlighted {
   color: #FFFFFF;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-width: 480px;
+  height: 400px;
+  margin: 0 auto;
+  gap: 30px;
+  background-color: #2F303A;
+  background-image: url("../images/main/hero/hero-480.jpg");
+  background-size: 480px 400px;
+}
+.hero__title {
+  color: #FFFFFF;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  text-align: center;
+}
+@media screen and (min-width: 1200px) {
+  .hero__title {
+    font-size: 44px;
+    line-height: 1.4;
+  }
+}
+.hero__subtitle {
+  display: block;
+  color: #FFFFFF;
+  font-size: 26px;
+  line-height: 1.5;
+}
+@media screen and (min-width: 1200px) {
+  .hero__subtitle {
+    font-size: 44px;
+    line-height: 1.4;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero {
+    height: 600px;
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+  .hero {
+    background-image: url("../images/main/hero/hero-480x2.jpg");
+  }
+}
+@media screen and (min-width: 481px) {
+  .hero {
+    background-image: url("../images/main/hero/hero-768.jpg");
+    background-size: 768px 400px;
+    background-size: cover;
+  }
+}
+@media screen and (min-width: 481px) and (min-device-pixel-ratio: 2), screen and (min-width: 481px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 481px) and (min-resolution: 192dpi), screen and (min-width: 481px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: url("../images/main/hero/hero-768x2.jpg");
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero {
+    background-image: url("../images/main/hero/hero-1600.jpg");
+    background-size: 1600px 600px;
+    background-size: cover;
+  }
+}
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: url("../images/main/hero/hero-1600x2.jpg");
+  }
+}
+.hero__button {
+  border-radius: 4px;
+  border: none;
+  padding: 10px 32px;
+  min-width: 200px;
+  background-color: #2196F3;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  text-align: center;
+  cursor: pointer;
+}
+@media screen and (min-width: 1200px) {
+  .hero__button {
+    min-width: 216px;
+  }
 }
 
 .modal {
