@@ -1,3 +1,12 @@
+.works {
+    display: none;
+
+    @media screen and (min-width: $tablet) {
+        display: block;
+        padding-bottom: 94px;
+    }
+}
+
 .works__title {
     margin-bottom: 50px;
     color: $title-color;
@@ -21,7 +30,7 @@
     position: absolute;
     bottom: 0;
 
-    @extend %flex-center;
+    @include flex-center;
     
     width: 370px;
     height: 70px;
@@ -35,7 +44,7 @@
     color: $primary-color
 }
 
-@media screen and (max-width: $mobile) {
+@media screen and (max-width: 1199px) {
     .works {
         display: none;
     }
