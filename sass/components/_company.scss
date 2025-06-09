@@ -1,3 +1,15 @@
+.company {
+    width: $mobile;
+
+    @media screen and (min-width: $tablet) {
+        width: $tablet;
+    }
+
+    @media screen and (min-width: $desktop) {
+        width: $desktop;
+    }
+}
+
 .company__title {
     color: $title-color;
     font-weight: 700;
@@ -7,13 +19,17 @@
 }
 
 .company__list {
+    display: flex;
+    flex-wrap: wrap;
     gap: 30px;
 }
 
 .company__item {
+    @include flex-center;
+
     padding: 0;
     margin: 0;
-    width: 170px;
+    width: 210px;
     height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
@@ -27,36 +43,21 @@
             fill: $accent-color;
         }
     }
+
+    @media screen and (min-width: $tablet) {
+        width: 226px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        width: 170px;
+    }
 }
 
 .company__image {
     display: flex;
     width: 106px;
     height: 60px;
-    @extend %icon-contain-center;
+    @include icon-contain-center;
     fill: #afb1b8;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-@media screen and (max-width: $mobile) {
-    .mobile--padding {
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
-
-    .company__title {
-        margin-bottom: 30px;
-    }
-
-    .company__list {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 30px;
-    }
-
-    .company__item {
-        @include flex-center;
-        width: 210px;
-        height: 92px;
-    }
 }

@@ -10,7 +10,7 @@
     justify-content: space-between;
     padding: 0 15px;
 
-    width: 100%;
+    width: $mobile;
     min-height: 60px;
 
     margin: auto;
@@ -23,7 +23,7 @@
         display: flex;
         gap: 92px;
 
-        width: 1200px;
+        width: $desktop;
     }
 }
 
