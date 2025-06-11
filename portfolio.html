@@ -6,7 +6,11 @@
       name="description"
       content="WebStudio"
     />
-    <title>WebStudio</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Web Studio</title>
     <link
       rel="preconnect"
       href="https://fonts.googleapis.com"
@@ -71,14 +75,14 @@
               <li class="mobile-navigation__item">
                 <a
                   href="./index.html"
-                  class="mobile-navigation__link mobile-navigation__link--current"
+                  class="mobile-navigation__link"
                   >Студія</a
                 >
               </li>
               <li class="mobile-navigation__item">
                 <a
                   href="./portfolio.html"
-                  class="mobile-navigation__link"
+                  class="mobile-navigation__link mobile-navigation__link--current"
                   >Портфоліо</a
                 >
               </li>
@@ -207,7 +211,7 @@
     <main>
       <!-- Portfolio -->
       <section class="section">
-        <div class="container">
+        <div class="container portfolio">
           <div class="filter">
             <ul class="filter__list">
               <li class="filter__item">
@@ -254,7 +258,7 @@
           </div>
 
           <h1 class="title--hidden">Приклади наших робіт</h1>
-          <div class="container">
+          <div class="container__portfolio">
             <ul class="portfolio__list">
               <li class="portfolio__item">
                 <a
@@ -263,11 +267,19 @@
                 >
                   <div class="portfolio__image">
                     <img
-                      src="./images/portfolio/tehno.jpg"
-                      alt="Зображення ноутбуку"
-                      width="370"
-                      height="294"
+                      srcset="
+                        ./images/portfolio/Technocracker-354.jpg 354w,
+                        ./images/portfolio/Technocracker-370.jpg 370w,
+                        ./images/portfolio/Technocracker-450.jpg 450w,
+                        ./images/portfolio/Technocracker-708.jpg 708w,
+                        ./images/portfolio/Technocracker-740.jpg 740w,
+                        ./images/portfolio/Technocracker-900.jpg 900w
+                      "
+                      src="./images/portfolio/Technocracker-354.jpg"
+                      alt=" Постер Технокряк"
+                      sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 450px"
                     />
+
                     <div class="portfolio__overlay">
                       <p class="portfolio__label">
                         Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -292,10 +304,17 @@
                 >
                   <div class="portfolio__image">
                     <img
-                      src="./images/portfolio/neworlean.jpg"
-                      alt="Постер New Orlean  vs Golden Star"
-                      width="370"
-                      height="294"
+                      srcset="
+                        ./images/portfolio/NewOrleanvsGoldenStar-354.jpg 354w,
+                        ./images/portfolio/NewOrleanvsGoldenStar-370.jpg 370w,
+                        ./images/portfolio/NewOrleanvsGoldenStar-450.jpg 450w,
+                        ./images/portfolio/NewOrleanvsGoldenStar-708.jpg 708w,
+                        ./images/portfolio/NewOrleanvsGoldenStar-740.jpg 740w,
+                        ./images/portfolio/NewOrleanvsGoldenStar-900.jpg 900w
+                      "
+                      src="./images/portfolio/NewOrleanvsGoldenStar-354"
+                      alt="Постер New Orlean vs Golden Star"
+                      sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 450px"
                     />
                     <div class="portfolio__overlay">
                       <p class="portfolio__label">
@@ -323,10 +342,17 @@
                 >
                   <div class="portfolio__image">
                     <img
-                      src="./images/portfolio/seafood.jpg"
-                      alt="Логотип ресторану"
-                      width="370"
-                      height="294"
+                      srcset="
+                        ./images/portfolio/seafood-354.jpg 354w,
+                        ./images/portfolio/seafood-370.jpg 370w,
+                        ./images/portfolio/seafood-450.jpg 450w,
+                        ./images/portfolio/seafood-708.jpg 708w,
+                        ./images/portfolio/seafood-740.jpg 740w,
+                        ./images/portfolio/seafood-900.jpg 900w
+                      "
+                      src="./images/portfolio/seafood-354.jpg"
+                      alt="Постер Seafood"
+                      sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 450px"
                     />
                     <div class="portfolio__overlay">
                       <p class="portfolio__label">
@@ -352,10 +378,17 @@
                 >
                   <div class="portfolio__image">
                     <img
-                      src="./images/portfolio/prime.jpg"
-                      alt="Фото навушників"
-                      width="370"
-                      height="294"
+                      srcset="
+                        ./images/portfolio/prime-354.jpg 354w,
+                        ./images/portfolio/prime-370.jpg 370w,
+                        ./images/portfolio/prime-450.jpg 450w,
+                        ./images/portfolio/prime-708.jpg 708w,
+                        ./images/portfolio/prime-740.jpg 740w,
+                        ./images/portfolio/prime-900.jpg 900w
+                      "
+                      src="./images/portfolio/prime-354.jpg"
+                      alt="Постер Prime"
+                      sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 450px"
                     />
                     <div class="portfolio__overlay">
                       <p class="portfolio__label">
@@ -381,10 +414,17 @@
                 >
                   <div class="portfolio__image">
                     <img
-                      src="./images/portfolio/boxes.jpg"
-                      alt="Фото коробок"
-                      width="370"
-                      height="294"
+                      srcset="
+                        ./images/portfolio/boxes-354.jpg 354w,
+                        ./images/portfolio/boxes-370.jpg 370w,
+                        ./images/portfolio/boxes-450.jpg 450w,
+                        ./images/portfolio/boxes-708.jpg 708w,
+                        ./images/portfolio/boxes-740.jpg 740w,
+                        ./images/portfolio/boxes-900.jpg 900w
+                      "
+                      src="./images/portfolio/boxes-354.jpg"
+                      alt="Постер Boxes"
+                      sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 450px"
                     />
                     <div class="portfolio__overlay">
                       <p class="portfolio__label">
@@ -410,10 +450,17 @@
                 >
                   <div class="portfolio__image">
                     <img
-                      src="./images/portfolio/borders.jpg"
-                      alt="Зображення монітору"
-                      width="370"
-                      height="294"
+                      srcset="
+                        ./images/portfolio/borders-354.jpg 354w,
+                        ./images/portfolio/borders-370.jpg 370w,
+                        ./images/portfolio/borders-450.jpg 450w,
+                        ./images/portfolio/borders-708.jpg 708w,
+                        ./images/portfolio/borders-740.jpg 740w,
+                        ./images/portfolio/borders-900.jpg 900w
+                      "
+                      src="./images/portfolio/borders-354.jpg"
+                      alt="Постер Borders"
+                      sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 450px"
                     />
                     <div class="portfolio__overlay">
                       <p class="portfolio__label">
@@ -441,10 +488,17 @@
                 >
                   <div class="portfolio__image">
                     <img
-                      src="./images/portfolio/limitededition.jpg"
-                      alt="Зображення журналу"
-                      width="370"
-                      height="294"
+                      srcset="
+                        ./images/portfolio/limitededition-354.jpg 354w,
+                        ./images/portfolio/limitededition-370.jpg 370w,
+                        ./images/portfolio/limitededition-450.jpg 450w,
+                        ./images/portfolio/limitededition-708.jpg 708w,
+                        ./images/portfolio/limitededition-740.jpg 740w,
+                        ./images/portfolio/limitededition-900.jpg 900w
+                      "
+                      src="./images/portfolio/limitededition-354.jpg"
+                      alt="Постер Limited Edition"
+                      sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 450px"
                     />
                     <div class="portfolio__overlay">
                       <p class="portfolio__label">
@@ -472,10 +526,17 @@
                 >
                   <div class="portfolio__image">
                     <img
-                      src="./images/portfolio/lab.jpg"
-                      alt="Фото лейблу"
-                      width="370"
-                      height="294"
+                      srcset="
+                        ./images/portfolio/lab-354.jpg 354w,
+                        ./images/portfolio/lab-370.jpg 370w,
+                        ./images/portfolio/lab-450.jpg 450w,
+                        ./images/portfolio/lab-708.jpg 708w,
+                        ./images/portfolio/lab-740.jpg 740w,
+                        ./images/portfolio/lab-900.jpg 900w
+                      "
+                      src="./images/portfolio/lab-354.jpg"
+                      alt="Постер LAB"
+                      sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 450px"
                     />
                     <div class="portfolio__overlay">
                       <p class="portfolio__label">
@@ -501,10 +562,17 @@
                 >
                   <div class="portfolio__image">
                     <img
-                      src="./images/portfolio/growingbusiness.jpg"
-                      alt="Фото  ноутбуку"
-                      width="370"
-                      height="294"
+                      srcset="
+                        ./images/portfolio/growingbusiness-354.jpg 354w,
+                        ./images/portfolio/growingbusiness-370.jpg 370w,
+                        ./images/portfolio/growingbusiness-450.jpg 450w,
+                        ./images/portfolio/growingbusiness-708.jpg 708w,
+                        ./images/portfolio/growingbusiness-740.jpg 740w,
+                        ./images/portfolio/growingbusiness-900.jpg 900w
+                      "
+                      src="./images/portfolio/growingbusiness-354.jpg"
+                      alt="Постер Growing Business"
+                      sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 450px"
                     />
                     <div class="portfolio__overlay">
                       <p class="portfolio__label">
@@ -623,5 +691,7 @@
         </form>
       </div>
     </footer>
+
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
