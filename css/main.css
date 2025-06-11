@@ -977,7 +977,19 @@ img {
 }
 
 .section--bg-color {
+  width: 480px;
+  margin: auto;
   background-color: #f5f4fa;
+}
+@media screen and (min-width: 768px) {
+  .section--bg-color {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section--bg-color {
+    width: 100%;
+  }
 }
 
 .team {
@@ -1402,7 +1414,19 @@ img {
 }
 
 .footer {
+  width: 480px;
+  margin: auto;
   background-color: #2f303a;
+}
+@media screen and (min-width: 768px) {
+  .footer {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer {
+    width: 100%;
+  }
 }
 
 .footer--padding {

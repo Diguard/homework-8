@@ -1,5 +1,15 @@
 .footer {
-  background-color: #2f303a;
+  width: $mobile;
+  margin: auto;
+  background-color: #2f303a;;
+
+  @media screen and (min-width: $tablet) {
+    width: $tablet;
+  }
+  
+  @media screen and (min-width: $desktop) {
+    width: 100%;
+  } 
 }
 
 .footer--padding {
