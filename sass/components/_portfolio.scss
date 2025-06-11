@@ -1,6 +1,6 @@
 // Filter
 .filter__list {
-    @extend %flex-center;
+    @include flex-center;
     gap: 8px;
     margin-bottom: 56px;
 }
@@ -70,7 +70,7 @@ img {
     position: absolute;
     top: 0;
 
-    @extend %flex-center;
+    @include flex-center;
 
     width: 370px;
     height: 294px;

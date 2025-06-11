@@ -1,11 +1,13 @@
 .works {
     display: none;
 
-    @media screen and (min-width: $tablet) {
+    @media screen and (min-width: $desktop) {
         display: block;
+
         padding-bottom: 94px;
     }
 }
+
 
 .works__title {
     margin-bottom: 50px;
@@ -19,6 +21,11 @@
     display: flex;
     position: relative;
     gap: 30px;
+}
+
+.works__item {
+    max-width: 370px;
+    overflow: hidden;
 }
 
 .works__image {
@@ -44,8 +51,4 @@
     color: $primary-color
 }
 
-@media screen and (max-width: 1199px) {
-    .works {
-        display: none;
-    }
-}
+
