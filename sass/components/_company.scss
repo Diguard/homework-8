@@ -1,14 +1,3 @@
-.company {
-    width: $mobile;
-
-    @media screen and (min-width: $tablet) {
-        width: $tablet;
-    }
-
-    @media screen and (min-width: $desktop) {
-        width: $desktop;
-    }
-}
 
 .company__title {
     color: $title-color;
@@ -21,15 +10,15 @@
 .company__list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 30px;
 }
 
 .company__item {
     @include flex-center;
 
-    padding: 0;
-    margin: 0;
-    width: 210px;
+    width: 100%;
+    max-width: 210px;
     height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
@@ -54,8 +43,6 @@
 }
 
 .company__image {
-    display: flex;
-    width: 106px;
     height: 60px;
     @include icon-contain-center;
     fill: #afb1b8;

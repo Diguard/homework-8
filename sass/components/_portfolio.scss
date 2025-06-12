@@ -1,6 +1,4 @@
 .portfolio {
-    width: $mobile;
-
     @media screen and (min-width: $tablet)  {
         width: $tablet;
     }
@@ -34,7 +32,7 @@
     border: none;
     padding: 6px 25px;
     min-width: 73px;
-    background-color: $accent-color;
+    background-color: #F5F4FA;
     color: $title-color;
 
     font-family: Roboto, sans-serif;
