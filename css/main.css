@@ -297,7 +297,17 @@ img {
     width: 100%;
   }
   .menu-container.is-open {
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100vh;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .menu-container.no-scroll {
     overflow-y: hidden;
@@ -307,10 +317,6 @@ img {
   .menu-container {
     display: none;
   }
-}
-
-.mobile-navigation {
-  margin-bottom: 302px;
 }
 
 .mobile-navigation__list {
@@ -451,7 +457,7 @@ img {
   }
 }
 
-@media screen and (min-width: 480px) and (min-device-pixel-ratio: 2), screen and (min-width: 480px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 480px) and (min-resolution: 192dpi), screen and (min-width: 480px) and (min-resolution: 2dppx) {
+@media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
   .hero {
     background-image: url("../images/main/hero/hero-960.jpg");
   }

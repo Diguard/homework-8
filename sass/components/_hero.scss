@@ -49,15 +49,13 @@
     }
 }
 
-@media screen and (min-width: $mobile) {
-  @media
+@media
     screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
     .hero {
     background-image: url("../images/main/hero/hero-960.jpg");
   }
-}
 }
 
 @media screen and (min-width: $tablet) {

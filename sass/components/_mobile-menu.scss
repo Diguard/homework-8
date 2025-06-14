@@ -40,8 +40,12 @@
         width: 100%;
         
         &.is-open {
-            display: block;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            justify-content: space-between;
         }
+
         &.no-scroll {
             overflow-y: hidden;
         }
@@ -51,10 +55,6 @@
     @media screen and (min-width: $tablet){
         display: none;
     }
-}
-
-.mobile-navigation {
-    margin-bottom: 302px;
 }
 
 .mobile-navigation__list {
